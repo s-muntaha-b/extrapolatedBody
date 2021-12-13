@@ -8,8 +8,8 @@ void setup() {
 }
 
 void draw() {
-  scale(3);
-  background(190,390,232);
+  scale(2);
+  background(0);
   updateOpenCV();
   
   image(buffer, 0, 0 );
@@ -29,7 +29,7 @@ void draw() {
   pushMatrix();    
   camera(cameraPos.x, cameraPos.y, cameraPos.z, 0, 0, 0, 0, -1, 0);
   
-  fill(120, 60, 255);
+  fill(0, 127, 255);
   stroke(0);
   strokeWeight(1);
   box(25);
