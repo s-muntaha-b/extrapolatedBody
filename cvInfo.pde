@@ -1,5 +1,6 @@
 import gab.opencv.*;
 import java.awt.Rectangle;
+import java.awt.Rectangle;
 
 OpenCV openCV;
 Rectangle[] faces;

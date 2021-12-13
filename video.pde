@@ -1,9 +1,9 @@
 import processing.video.*;
 
 Capture capture;
-int videoWidth = 320;
-int videoHeight = 240;
-int videoFps = 30;
+int videoWidth = 800;
+int videoHeight = 800;
+int videoFps = 60;
 PGraphics buffer;
 
 void setupCapture(int whichCamera) {
