@@ -3,7 +3,7 @@ import processing.video.*;
 Capture capture;
 int videoWidth = 800;
 int videoHeight = 800;
-int videoFps = 38;
+int videoFps = 30;
 PGraphics buffer;
 
 void setupCapture(int whichCamera) {

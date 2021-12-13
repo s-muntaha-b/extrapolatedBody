@@ -2,7 +2,7 @@ PVector cameraPos;
 
 void setup() {
   size(1000, 1000, P3D);
-  cameraPos = new PVector(height, 0, 100);
+  cameraPos = new PVector(width, 0, 100);
   setupCapture(0);
   setupOpenCV();
 }
